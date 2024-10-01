@@ -68,3 +68,24 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# macOS system files
+.DS_Store
+
+# Gradle build-related files
+*.bin
+*.lock
+*.probe
+
+# Gradle caches and output
+.gradle/
+build/
+.gradle/file-system.probe
+.gradle/7.6.4/executionHistory/executionHistory.bin
+.gradle/7.6.4/executionHistory/executionHistory.lock
+.gradle/7.6.4/fileHashes/fileHashes.bin
+.gradle/7.6.4/fileHashes/fileHashes.lock
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/buildOutputCleanup/outputFiles.bin
+src/main/java/com/.DS_Store
+.DS_Store
