@@ -1,0 +1,70 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+*.pid
+*.out
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven #
+target/
+
+# Gradle #
+.gradle/
+build/
+
+# Ignore Gradle log files
+.gradle/
+build/
+out/
+!gradle-wrapper.jar
+
+# Gradle caches
+.gradle/caches/
+.gradle/gradle-app.setting/
+
+# Project files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Eclipse files
+.project
+.classpath
+.c9/
+.settings/
+bin/
+*.swp
+
+# IntelliJ IDEA files
+*.idea/
+*.iml
+
+# STS (Spring Tool Suite) files
+.springBeans/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git files
+*.orig
+
+# Environment variables
+.env
+.env.local
+.env.*.local
