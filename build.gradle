@@ -22,13 +22,13 @@ tasks.named('test') {
 }
 
 tasks.named('bootRun') {
-    mainClass = 'com.example.consumingrest.ConsumingRestApplication'
+    mainClass = 'com.example.schedulingtasks.SchedulingTasksApplication'
 }
 
 tasks.named('jar') {
     manifest {
         attributes(
-            'Main-Class': 'com.example.consumingrest.ConsumingRestApplication'
+            'Main-Class': 'com.example.schedulingtasks.SchedulingTasksApplication'
         )
     }
 }

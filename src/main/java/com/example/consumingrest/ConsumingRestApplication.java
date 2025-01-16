@@ -55,6 +55,7 @@ public class ConsumingRestApplication {
         // CommandLineRunner is a functional interface in Spring Boot used to execute code when the application starts. It is typically implemented to run initialization logic or perform tasks that need to be executed during the startup phase of a Spring Boot application.
         // if error, the api/random is failed to run, or failed to call, or not run
         // the quoter can use this one repo https://github.com/spring-guides/quoters
+		// ref https://spring.io/guides
 		return args -> {
 			Quote quote = restTemplate.getForObject(
 					"http://localhost:8080/api/random", Quote.class);
