@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class OddChecker {
 
     public String oddCheckerFunc(int number){
-        return number % 2 == 0 ? "Odd Number" : "Even Number";
+        return number % 2 == 0 ? "Even Number" : "Odd Number";
     }
 
     public void run(Scanner scanner) {
