@@ -19,7 +19,7 @@ dependencies {
 }
 
 springBoot {
-    mainClass = 'com.example.logicalquizmanual.LogicalQuizManualApplication'
+    mainClass = 'com.example.mockPortoData.RestServiceApplication'
 }
 
 tasks.named('test') {
