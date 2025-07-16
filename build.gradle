@@ -19,7 +19,7 @@ dependencies {
 }
 
 springBoot {
-    mainClass = 'com.example.mockPortoData.RestServiceApplication'
+    mainClass = 'com.example.videoconverter.VideoConverterApplication'
 }
 
 tasks.named('test') {
