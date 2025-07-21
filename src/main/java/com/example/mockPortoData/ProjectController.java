@@ -23,4 +23,19 @@ public class ProjectController {
         // Wrap in response object
         return new ProjectInterface(itemsArray);
     }
+
+    @GetMapping("/projectsInfoDummy")
+    public ProjectInterface projectsDummy() throws InterruptedException {
+        Thread.sleep(3000); // simulate delay
+
+        List<ProjectInterfaceItem> respArray = new ArrayList<>();
+        respArray.add(new ProjectInterfaceItem(13, "dummy", "desc"));
+        respArray.add(new ProjectInterfaceItem(14, "dummy", "desc"));
+
+        // Convert List to Array
+        ProjectInterfaceItem[] itemsArray = respArray.toArray(new ProjectInterfaceItem[0]);
+
+        // Wrap in response object
+        return new ProjectInterface(itemsArray);
+    }
 }
